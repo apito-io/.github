@@ -1,6 +1,8 @@
 ## Hi there 👋
 
-**We are working a the first Open Beta Vesion of Apito**
+**We are working a the first Open Beta Vesion of Apito** 
+
+**Open Source Verison is havily under development, In the mean time Please do checkout Apito Cloud**
 
 🙋‍♀️ A short introduction - This will be the community version of Apito CMS and will be an Open Source Project
 🌈 Contribution guidelines - Yes you can self host and extend the Apito CMS for your own needs. 
