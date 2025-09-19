@@ -1,12 +1,30 @@
-# 👋 Welcome to Apito
+Apito 🚀
 
-**Apito** is redefining headless CMS—open source, API-first, and built for teams. Instantly generate GraphQL & REST APIs, collaborate in real time, and scale with a modern tech stack.
+The lightweight backend & API builder — now open source!
+Apito is a database-agnostic, plugin-friendly API builder written in Go. It helps you design, run, and publish APIs in seconds — locally, in Docker, or to the cloud.
+Whether you’re prototyping with SQLite or scaling with Postgres/MySQL/MongoDB, Apito gives you the same fast developer experience.
 
-🚀 **Open Beta is here!**  
-Try the [Community Edition](https://github.com/apito-io) or experience [Apito Cloud](https://apito.io) for a fully managed solution.
+✨ Features
+  * ⚡ Lightweight: Go engine + static UI, <60MB Docker image.
+  * 🐳 Run anywhere: Local binary or Docker container.
+  * 🌐 Database agnostic: Supports Postgres, MySQL, MariaDB, MongoDB, Firestore, Firebase, DynamoDB, and more.
+  * 🔌 Plugin system: Extend with HashiCorp plugin framework.
+  * 🛠 CLI tools: Scaffold, run, sync, and publish APIs with one command.
+  * ☁️ Cloud-ready: Same schema & engine locally and in Apito Cloud (Google Cloud Run).
 
-- **Open & Extensible:** Self-host and customize with ease.
-- **Collaborative:** Built for seamless teamwork.
-- **Developer-First:** Fast, flexible, and future-ready.
+🚀 Quick Start
+1. Install the CLI
+curl -sL https://get.apito.io/install.sh | sh
 
-Join us—let’s build the future of content management.
+2. Create a new project
+apito create my-project
+
+3. Run locally
+apito start
+
+📖 Documentation
+Check out the full docs here: https://docs.apito.io
+
+🤝 Contributing
+We 💙 contributions! Here’s how you can help:
+Star this repo ⭐ — it means a lot!
