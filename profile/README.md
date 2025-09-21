@@ -1,4 +1,4 @@
-Apito 🚀
+Apito 🚀 ( Under Heavy Development )
 
 The lightweight backend & API builder — now open source!
 Apito is a database-agnostic, plugin-friendly API builder written in Go. It helps you design, run, and publish APIs in seconds — locally, in Docker, or to the cloud.
