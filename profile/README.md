@@ -1,30 +1,25 @@
-Apito 🚀 ( Under Heavy Development )
+# Apito
 
-The lightweight backend & API builder — now open source!
-Apito is a database-agnostic, plugin-friendly API builder written in Go. It helps you design, run, and publish APIs in seconds — locally, in Docker, or to the cloud.
-Whether you’re prototyping with SQLite or scaling with Postgres/MySQL/MongoDB, Apito gives you the same fast developer experience.
+Self-host a GraphQL API and admin console, or use Apito Cloud.
 
-✨ Features
-  * ⚡ Lightweight: Go engine + static UI, <60MB Docker image.
-  * 🐳 Run anywhere: Local binary or Docker container.
-  * 🌐 Database agnostic: Supports Postgres, MySQL, MariaDB, MongoDB, Firestore, Firebase, DynamoDB, and more.
-  * 🔌 Plugin system: Extend with HashiCorp plugin framework.
-  * 🛠 CLI tools: Scaffold, run, sync, and publish APIs with one command.
-  * ☁️ Cloud-ready: Same schema & engine locally and in Apito Cloud (Google Cloud Run).
+Supported databases are SQLite, PostgreSQL, MySQL, MariaDB, and MongoDB. DynamoDB, Oracle, and Cassandra are coming soon.
 
-🚀 Quick Start
-1. Install the CLI
-curl -sL https://get.apito.io/install.sh | sh
+## Install
 
-2. Create a new project
-apito create my-project
-
-3. Run locally
+```bash
+curl -fsSL https://get.apito.io/install.sh | bash
 apito start
+```
 
-📖 Documentation
-Check out the full docs here: https://docs.apito.io
+The console is at http://localhost:4055. The engine API is at http://localhost:5055.
 
-🤝 Contributing
-We 💙 contributions! Here’s how you can help:
-Star this repo ⭐ — it means a lot!
+## License
+
+The engine, console, and Studio are AGPL-3.0. The CLI, open_driver, templates, samples, plugins, and SDKs are Apache-2.0. Apps built with the SDKs carry no AGPL duty. Apito Cloud is private. A commercial engine license is available from Apito LLC. Contributions to the AGPL repos need the [CLA](../CLA.md).
+
+## Links
+
+- https://apito.io
+- https://apito.io/docs
+- https://discord.gg/Xb7p2ddC6E
+- support@apito.io
